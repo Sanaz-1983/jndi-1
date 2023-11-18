@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/myConnection"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="sanaz"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/database"
+              maxTotal="5"
+              maxIdle="3"
+    />
+</Context>
