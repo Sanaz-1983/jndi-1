@@ -6,7 +6,7 @@
               username="root"
               password="sanaz"
               driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/database"
+              url="jdbc:mysql://localhost:3306/users"
               maxTotal="5"
               maxIdle="3"
     />
